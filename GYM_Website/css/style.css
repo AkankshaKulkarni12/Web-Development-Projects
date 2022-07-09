@@ -1,0 +1,116 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url('/img/fitness2.jpg') no-repeat center/cover;
+    width: 100%;
+    color:bisque;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    font-family: 'Lobster', cursive;
+    /* border: 2px solid salmon; */
+}
+
+.left img{
+    width: 45px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 35%;
+    margin: 30px auto;
+}
+
+.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 43px;
+}
+
+.right input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    text-decoration: none;
+    width: 150px;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a{
+    padding: 10px 15px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(156, 155, 155);
+}
+
+.container{
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    width: 25%;
+    margin: 80px 68px;
+    padding: 60px;
+
+}
+
+.container h1{
+    text-align: center;
+}
+
+.groupf input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 270px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.groupf button{
+    display: block;
+    width: 270px;
+    margin: 14px auto;
+    background-color: black;
+    color: honeydew;
+    
+}
+
+
